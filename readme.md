@@ -127,7 +127,7 @@ console.log(res)
 ```
 ## options
 ```javascript
-function merge([arr1, arr2],{
+function merge([obj1, obj2],{
     'key1': true,
     /*
     Keep the leftmost value
