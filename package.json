@@ -1,5 +1,5 @@
 {
-  "name": "merge-utils",
+  "name": "merges-utils",
   "version": "1.0.0",
   "description": "A merge utils supports multiple merges.",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:CHENXCHEN/merge-utils.git"
+    "url": "git@github.com:CHENXCHEN/merges-utils.git"
   },
   "keywords": [
     "object",

@@ -1,12 +1,12 @@
 # merge-utils
 ## Install
 ```bash
-$ npm install merge-utils
+$ npm install merges-utils
 ```
 ## Usage
 ### right values cover left
 ```javascript
-var merge = require('../lib/index.js')
+var merge = require('merges-utils')
 var a = {
     'a': 123, 'b': 456,
     'c': {
@@ -35,7 +35,7 @@ console.log(res)
 ```
 ### diy merge method
 ```javascript
-var merge = require('../lib/index.js')
+var merge = require('merges-utils')
 var a = {
     'a': 123, 'b': 456,
     'c': {
@@ -69,7 +69,7 @@ console.log(res)
 ```
 ### n-level always keep former values
 ```javascript
-var merge = require('../lib/index.js')
+var merge = require('merges-utils')
 var a = {
     'a': 123, 'b': 456,
     'c': {
@@ -97,7 +97,7 @@ console.log(res)
  */
 ```
 ```javascript
-var merge = require('../lib/index.js')
+var merge = require('merges-utils')
 var a = {
     'a': 123, 'b': 456,
     'c': {
