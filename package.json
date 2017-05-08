@@ -1,0 +1,20 @@
+{
+  "name": "merge-utils",
+  "version": "1.0.0",
+  "description": "A merge utils supports multiple merges.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CHENXCHEN/merge-utils.git"
+  },
+  "keywords": [
+    "object",
+    "merge",
+    "recursive"
+  ],
+  "author": "Huachao Chen",
+  "license": "MIT"
+}
