@@ -1,6 +1,6 @@
 {
   "name": "merges-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A merge utils supports multiple merges.",
   "main": "lib/index.js",
   "scripts": {

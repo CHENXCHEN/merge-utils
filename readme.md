@@ -125,6 +125,15 @@ console.log(res)
   d: true }
  */
 ```
+### others
+```javascript
+var merge = require('../lib/index.js')
+var res = merge([{'a': {'b': 1, 'd': {'e': 12}}}, {'a': {'c': 1, 'd': 12}}] )
+console.log(res);
+/*
+{ a: { b: 1, d: { e: 12 }, c: 1 } }
+ */
+```
 ## options
 ```javascript
 function merge([obj1, obj2, ...],{
